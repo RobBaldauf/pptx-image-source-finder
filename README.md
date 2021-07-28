@@ -16,7 +16,7 @@ $ pip install -r requirements.txt
 Follow this [tutorial](https://cloud.google.com/vision/docs/libraries?hl=de#client-libraries-install-python) to create a google cloud vision key file for authentication.
 
 
-##Execution
+## Execution
 Call the following python script with your key json file and input/output-pptx files.
 ```shell
 $ python src/main.py -i /path/to/your/input.pptx -o /path/to/your/output.pptx -k /path/to/your/cloud_vision_keyfile.json
